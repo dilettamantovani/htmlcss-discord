@@ -133,7 +133,7 @@ h1 {
     background-color: #D3D3D3;
 }
 
-.flex-content {
+.flex-content .green-box {
     width: 80%;
     margin: auto;
 }
@@ -180,31 +180,43 @@ h2 {
     font-size: 2em;
 }
 
-.pink-box > p .green-box-text > p {
+.pink-box > p .green-box-text-top > p {
     font-size: 0.85em;
     margin-top: 10px;
 }
 
 .green-box {
-    width: 100%;
-    height: 500px;
+    width: 70%;
+    padding: 35px 0;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    object-fit: contain;
 }
 
-.green-box-text {
+.green-box-text-top {
     text-align: center;
 }
 
-.big-flex {
+.green-box-text-bottom {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 35px 0;
-    justify-content: space-evenly;
 }
+
+.Mac-download-bottom {
+    background-color: rgb(176, 133, 255);
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 18px;
+    padding: 8px;
+}
+
+
 
 /* FOOTER */
 footer {
