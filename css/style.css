@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER */
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    color: white;
+}
+
+/* nav */
+nav {
+    padding: 30px 0;
+    font-weight: 500;
+}
+
+.navbar {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item {
+    padding: 3px;
+}
+
+.logo, .login {
+    width: 20%;
+}
+
+.login {
+    text-align: end;
+}
+
+.login-button {
+    padding: 6px 10px;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.menu {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    padding: 0 20px;
+}
+
+.menu-item > a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* main header */
+
+.main-header {
+    padding: 35px 0 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-CTA {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0 0;    
+}
+
+.Mac-download {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 18px;
+    padding: 8px;
+}
+
+.Mac-download:hover {
+    text-decoration: underline;
+}
+
+.open-app {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 18px;
+    padding: 8px;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 30px 0;
+}
+
+
+/* MAIN */
+
+.white {
+    background-color: #FFFFFF;
+}
+
+.lightgrey {
+    background-color: #D3D3D3;
+}
+
+.flex-content {
+    width: 80%;
+    margin: auto;
+}
+
+.flex-container-big {
+    padding: 35px 0 35px 0;
+}
+
+.split {
+    display: flex;
+    align-items: center;
+    padding: 35px 0;
+    justify-content: space-evenly;
+}
+
+.blue-box {
+    width: 60%;
+    display: flex;
+    object-fit: cover;
+    justify-content: flex-start;
+}
+
+.blue-box.special {
+    justify-content: flex-end;
+}
+
+.img-groups {
+    width: cover;
+}
+
+.pink-box {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pink-box.special {
+    align-items: flex-start;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.pink-box > p .green-box-text > p {
+    font-size: 0.85em;
+    margin-top: 10px;
+}
+
+.green-box {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.green-box-text {
+    text-align: center;
+}
+
+.big-flex {
+    display: flex;
+    align-items: center;
+    padding: 35px 0;
+    justify-content: space-evenly;
+}
+
+/* FOOTER */
+footer {
+    background-color: #23272A;
+}
+
+.footer-main {
+    display: flex;
+    width: 80%;
+    margin: 0 auto 20px auto;
+    padding-top: 8px;
+}
+
+.footer-left {
+    background-color: #F08080;
+    height: 450px;
+    width: 30%;
+}
+
+.footer-right {
+    background-color: #20B2AA;
+    height: 450px;
+    width: 70%;
+    display: flex;
+}
+
+.flex-right {
+    width: 25%;
+}
+
+.logo-CTA {
+    background-color: #7FFFD4;
+    width: 80%;
+    height: 40px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer, button {
+    background-color: #FFB6C1;
+    padding: 1px 3px;
+}
+
+
+
+
+
